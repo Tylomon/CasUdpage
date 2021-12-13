@@ -2,7 +2,7 @@
 
 #carousel{
     background-image: url('../image/fondo.png');
-    background-size: 200px 200px;;
+    background-size: 200px 200px;
     background-repeat:repeat;
     background-attachment: fixed;    
   }
