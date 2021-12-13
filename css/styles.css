@@ -10,7 +10,7 @@
     min-height: 400px;
 }
 .footer{
-    background-color: #d1c4e9;
+    background-color: #D8E1CF;
     margin: 0px auto;
     padding:20px 0px 20px 0px; 
 }
@@ -19,7 +19,7 @@
    
     padding:70px 30px 70px 30px;
     margin: 0px auto; 
-    background-color: #9575cd;
+    background-color: #CFD2E1;
     color:floralwhite;
 
 }
@@ -36,7 +36,46 @@ padding:50px 0px 0px 0px;
 z-index: 0;
 }
 
-.navbar-dark{
-background-color: #512da8;
+@font-face{
+    font-family: 'gothic';
+    src: url('../Fonts/Bank\ Gothic\ Medium.otf');
+ 
+    font-weight: medium;
+    font-style: normal;
+  }
+
+  .navbar-toggler{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #19885F !important;
+
+  } 
+  
+  .navbar-toggler-icon  {
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #70B42D;
+  }
+
+  .navbar a:hover{
+    color: #70B42D !important;
+    font-family: 'gothic';    
+  }
+
+  .navbar{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
 
 }
+
+.navbar a{
+    letter-spacing: 0.3px;
+    
+}
+.titlenav {
+    font-family:'gothic';
+    letter-spacing: 0px;
+    font-size: 25px;
+}
+
