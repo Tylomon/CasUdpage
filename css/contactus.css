@@ -1,0 +1,27 @@
+.doc-content{
+  margin: auto;
+  background-color: #EBEEFF;
+  width: 95%;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+p{
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 450;
+}
+
+.containerinside{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+h2{
+  text-align: center;
+}
+
+
+
+
+
