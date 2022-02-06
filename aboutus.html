@@ -1,185 +1,299 @@
-<!-- Benigno Corrales 
-Assignment number one
-About us page edition -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <!--Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
-
-    <title>Ristorante Con Fusion: About Us</title>
-
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <title>Sobre Nosotros</title>
 </head>
 
 <body>
+    <!-- Inicio del Body -->
 
-    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">        
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+    <!-- Barra de Navegacion -->
+    <nav class="navbar  navbar-expand-sm navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-auto titlenav" href="./index.html">
+                <svg width="60" height="60">
+                    <image width="60px" height="60px" xlink:href="image/logocas.svg"></image>
+                </svg>
+                CAS UD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-           <a class="navbar-brand mr-auto" href="./index.html">Ristorante Con Fusion</a>
-           <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                </ul>        
-            </div>    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html"><span
+                                class="fa fa-home fa-lg"></span>
+                            Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> Sobre Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <span class="fa fa-calendar-check-o  fa-lg"></span> Eventos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <span class="fa fa-picture-o   fa-lg"></span> Galeria</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <span class="fa fa-address-card fa-lg"></span></span>
+                            Contáctanos</a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
     </nav>
-    <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
-                        lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm">
+
+    <!-- Encabezado -->
+    <div class="absolute">
+        <div class="row row-header ">
+            <div class="col-12 col-sm-12">
+                <h1>Acerca de CAS: Conócenos</h1>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron ">
+        <div class="container fondojumbo">
+            <div class="row row-header ">
+                <div class="Encabezado col-12 col-sm-12">
+                    <h1>Circuit And Systems Society Ud</h1>
                 </div>
             </div>
         </div>
+
     </header>
+    <!---------Fin encabezado------------->
 
-    <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">About Us</li>
-            </ol>
-            <div class="col 12">
-                <h3>About Us</h3>
+    <section id="carousel">
 
-                <hr>
+
+        <div class="doc-content">
+
+            <div class="container-fluid bg-grey containerinside">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Somos estudiantes de ingeniería , vinculados como el capítulo de Circuitos y Sistemas de la
+                            Rama Estudiantil IEEE de la Universidad Distrital Francisco José de Caldas.</p>
+                        <p>
+                            Nuestro principal objetivo es el de incentivar la investigación y el estudio de las diversas
+                            ciencias y en especial la ingeniería, ademas de innovar en el desarrollo tecnológico y
+                            científico de modelamientos y proyectos que brinden un beneficio a la sociedad y marquen una
+                            diferencia positiva en el diario vivir.
+                        </p>
+                        <p>
+                            Algunos otros objetivos se relacionan con el desarrollo de habilidades en el uso de
+                            herramientas computacionales para la modelación al igual que la destreza en la formulación y
+                            elaboración de proyectos, también es importante reforzar las bases de las diferentes áreas
+                            del conocimiento esenciales para la solución de problemáticas actuales, al igual que
+                            compartir y divulgar la información científica. </p>
+                    </div>
+                </div>
             </div>
+            <div class="container-fluid containerinside">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Nuestra Misión</h2>
+
+                        <p>Promovemos el desarrollo de proyectos con enfoque investigativo y social en las diferentes
+                            áreas de la ingeniería, lo cual permite generar un aprendizaje en temas a fines y fomentar
+                            un espíritu de búsqueda a favor de un crecimiento académico, personal, profesional y grupal
+                            como parte de nuestra sociedad de la mejor manera</p>
+
+                    </div>
+                    <div class="col-sm-4 d-flex justify-content-center">
+                        <svg width="150" height="150">
+                            <image width="150px" height="150px" xlink:href="image/aboutus/ud.svg"></image>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid bg-grey containerinside">
+                <div class="row">
+                    <div class="col-sm-4 d-flex justify-content-center">
+                        <svg width="150" height="150">
+                            <image width="150px" height="150px" xlink:href="image/logocas.svg"></image>
+                        </svg>
+                    </div>
+                    <div class="col-sm-8">
+
+                        <h2>Nuestra Visión</h2>
+
+                        <p>Queremos ser reconocidos como un capítulo fuerte en desarrollo e investigación ante todo
+                            transparente, líder en la vanguardia tecnológica y generador de sistemas electrónicos que
+                            brinden soluciones a los desafíos de la sociedad en todas las áreas de la ingeniería
+                            aplicada, con enfoque en circuitos y sistemas. Divulgando y acercando más la tecnología a la
+                            población colombiana inicialmente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!---------Inicio de Cards------------->
+            <div class="team-boxed">
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center">Staff</h2>
+                        <p class="text-center staff">Algunos miembros de Nuestro Equipo</p>
+                    </div>
+                    <div class="row people">
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="./image/aboutus/Natha.jpg">
+                                <h3 class="name">Nataly Romero</h3>
+                                <p class="title">Presidente</p>
+                                <p class="description">Estudiante de ingeniería electrónica de la Universidad Distrital
+                                    Francisco José de
+                                    Caldas y aprendiz Sena con habilidades para el análisis de sistemas electrónicos
+                                    básicos y manejo de instrumentos de medición, manejo del inglés nivel B2, además
+                                    del uso de herramientas tecnológicas y software computacional. Caracterizada por
+                                    su responsabilidad, puntualidad, eficiencia, honestidad, empatía, capacidad de
+                                    asumir retos, habilidades de aprendizaje rápido y gran deseo de crecer tanto de
+                                    manera personal como profesionalmente</p>
+                  
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="assets/img/2.jpg">
+                                <h3 class="name">Jairo Felipe Ríos</h3>
+                                <p class="title">Vicepresidente</p>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+                                    Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
+                                    suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
+                                <h3 class="name">Juan Camilo Sánchez</h3>
+                                <p class="title">Secretario</p>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+                                    Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
+                                    suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="box"><img class="rounded-circle" src="./image/aboutus/Benigno.jpg">
+                            <h3 class="name">Benigno Corrales</h3>
+                            <p class="title">Publicista</p>
+                            <p class="description">Estudiante de Ing. Electronica, apasionado de la programación,
+                                actualmente trabajo como desarrollador RPA y me encuentro fortaleciendo mis competencias
+                                en desarrollo web.
+                                Soy una persona responsable, creativa, honesta, con iniciativa, tomo con
+                                placer los retos y metas que pueden surgir, tengo buenas relaciones interpersonales,
+                                siempre trabajo y propongo en equipo soluciones a los problemas
+                                propuestos. </p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------Fin de Cards------------->
+
+
+
         </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-6 col-md-6">
-                <h2>Our History</h2>
-                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence
-                    in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it
-                    enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star
-                    Michelin chefs in the world, you never know what will arrive on your plate the next time you visit
-                    us.</p>
-                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by
-                    our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-            </div>
-            <div>
-            </div>
-        </div>
 
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-12 col-md-12">
-                <h2>Corporate Leadership</h2>
-            </div>
-            <div class="col col-sm-12 col-md-12">
-                <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-            </div>
-            <div class="d-none  d-sm-block col-md-12">
-                <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous
-                    journey to the shores of America with the intention of giving their children the best future. His
-                    mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available
-                    inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which
-                    <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this
-                    restaurant, pioneering cross-cultural culinary connections.
-                </p>
-            </div>
 
-            <div class="col-12 col-sm-12 col-md-12">
-                <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-            </div>
-            <div class="d-none  d-sm-block col-md-12">
-                <p>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established
-                    family tradition in farming and produce. His experiences growing up on a farm in the Australian
-                    outback gave him great appreciation for varieties of food sources. As he puts it in his own words,
-                    <em>Everything that runs, wins, and everything that stays, pays!</em>
-                </p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12">
-                <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
-            </div>
-            <div class="d-none  d-sm-block col-md-12">
-                <p>Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish
-                    that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their
-                    dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive
-                        my lick.</em></p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12">
-                <h3>Alberto Somayya <small>Executive Chef</small></h3>
-            </div>
-            <div class="d-none  d-sm-block col-md-12">
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with
-                    whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
-                    experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a
-                        winning hit! Amma Mia!</em></p>
-            </div>
-        </div>
-    </div>
 
-    </div>
 
+
+    </section>
+
+
+
+    <!--Footer-->
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
+                <div class="col-4 offset-1 col-sm-2 text-center">
+                    <h5>Enlaces</h5>
                     <ul class="list-unstyled">
                         <li><a href="./index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./aboutus.html">Sobre Nosotros</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="./contactus.html">Contactanos</a></li>
                     </ul>
                 </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                <div class="col-7 col-sm-5 align-self-center text-center">
+                    <h5>Ubícanos</h5>
                     <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i>: 
-                        <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        Salon 402, Facultad de Ingenieria <br>
+                        Universidad Distrital Francisco Jose de Caldas <br>
+                        Ak. 7 No. 40b-53<br>
+                        Localidad de Chapinero, Bogotá<br>
+
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-google"
+                                href="https://www.instagram.com/cas_ud/?hl=es-la"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-facebook"
+                                href="https://www.facebook.com/ieeeUdistrital/"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin"
+                                href="https://www.linkedin.com/company/ieee-ud/"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/cas_ieee_ud"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/c/RamaIEEEud"><i
+                                    class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:casud@udistrital.edu.co,ieeecasud@gmail.com"><i
+                                    class="fa fa-envelope-o"></i></a>
+                        </div>
 
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <svg width="150" height="76px">
+                        <image width="150px" height="76px" xlink:href="image/IEEE.svg"></image>
+                    </svg>
                 </div>
             </div>
         </div>
     </footer>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
