@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "casieeeud",
-    "CASUD": "casieeeud"
+        "default": "casieeeud"
   },
   "targets": {}
 }
