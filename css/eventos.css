@@ -1,0 +1,38 @@
+.doc-content{
+  margin: auto;
+  background-color: #EBEEFF;
+  width: 95%;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+p{
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 450;
+}
+
+.containerinside{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+h2{
+  text-align: center;
+}
+
+img{
+  width:100%;
+  height: auto;
+}
+@media (max-width:800px) {
+  img{
+    width: 250px ;
+    height: 150px;
+  }
+}
+
+.Vcenter{
+  display: flex;
+  align-items: center;
+}
