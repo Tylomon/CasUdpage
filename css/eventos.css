@@ -34,5 +34,8 @@ img{
 
 .Vcenter{
   display: flex;
-  align-items: center;
+  align-content: center;
+  align-items: center; 
+  justify-content: center; /* center items vertically, in this case */
+  flex-direction: column;
 }
